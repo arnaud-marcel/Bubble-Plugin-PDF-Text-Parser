@@ -1,0 +1,30 @@
+{
+    "category": "plugins",
+    "display": "parse pdf",
+    "fields": {
+        "AAF": {
+            "caption": "pdf",
+            "doc": "Provide the URL of the PDF document for parsing",
+            "editor": "DynamicValue",
+            "name": "pdf",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "text",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "info",
+            "name": "info",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

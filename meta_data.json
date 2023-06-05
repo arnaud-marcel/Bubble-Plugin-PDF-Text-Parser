@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "artificial intelligence (AI)",
+        "2": "web scraping"
+    },
+    "description": "Extract and analyze data from PDF documents. It uses the pdf-parse Node.js library to parse PDF files and retrieve useful information such as the text content and the info metadata of the PDF. This plugin is particularly useful for applications that need to process and analyze PDF documents, including those that employ vectorization techniques for Language Learning Models (LLM).",
+    "image": "//meta-l.cdn.bubble.io/f1685973886260x778836759183365100/pdflogo.png",
+    "license": "open_source",
+    "link": "nocodeagency.net",
+    "name": "PDF Text Parser",
+    "plugin_instructions": "- Select the \"parse pdf\" action in your workflow.\n- provide the URL of the PDF you want to parse.\n\nThe action will return an parsed text and the info metadata from the PDF. ",
+    "sa_node_version": 14
+}
